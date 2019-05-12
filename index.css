@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+}
+
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  padding: 10px 0;
+  z-index: 2;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+}
+
+.logo img{
+    margin-right: 10px;
+}
+
+.logo span{
+  color: MediumAquamarine;
+}
+nav{
+  padding-right: 20px;
+}
+
+nav span{
+  display: inline-block;
+  padding-right: 20px;
+}
+
+nav span a{
+  color: black;
+}
+
+.main{
+  z-index: 1;
+  display: flex;
+  position: relative;
+  top: 80px;
+  border: 1px solid black;
+}
+
+.first,
+.second,
+.last{
+  display: flex;
+  flex-direction: column;
+}
+
+.first{
+  width: 630px;
+}
+
+.second{
+  
+}
